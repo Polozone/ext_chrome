@@ -13,6 +13,6 @@ const puppeteer = require('puppeteer');
 	const formPersonal = await page.$('.pv-san');
 	await page.waitForSelector('#myId', {visible: true})
 	console.log(formPersonal);
-	await browser.close();
+	await browser.close(); 
 })();
 
